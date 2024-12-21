@@ -1,0 +1,32 @@
+
+.grid{
+  display: grid;
+}
+  
+.grid-col{
+  grid-auto-flow: column;
+}
+
+.grid-col2{
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16{
+  gap: 16px;
+}
+
+.text-2xl {
+  font-family: var(--h1);
+}
+
+.text-xl {
+  font-family: var(--h2);
+}
+
+.text-lg {
+  font-family: var(--h4);
+}
+
+.text-sm {
+  font-family: var(--text-sm);
+}
